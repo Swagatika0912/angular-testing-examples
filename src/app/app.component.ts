@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-testing-examples';
+  btnText = 'Subscribe';
+  isSubscribed = false;
+  Subscribe(){
+    this.btnText = 'Subscribed';
+  this.isSubscribed = true;
+
+  }
 }
